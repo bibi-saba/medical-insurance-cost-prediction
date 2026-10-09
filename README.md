@@ -1,10 +1,10 @@
-# 🩺 Medical Insurance Cost Prediction (Multiple Linear Regression)
+#  Medical Insurance Cost Prediction (Multiple Linear Regression)
 
 An end-to-end Machine Learning project built using Python, Pandas, Scikit-Learn, Matplotlib, and Seaborn. This repository predicts individual medical insurance costs based on demographic and lifestyle features using Multiple Linear Regression.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 Healthcare costs can vary significantly based on individual risk factors. The goal of this project is to analyze individual health and demographic data to build an accurate predictive model for medical charges.
 
 - **Target Variable:** `charges` (Medical cost in USD)
@@ -13,7 +13,7 @@ Healthcare costs can vary significantly based on individual risk factors. The go
 
 ---
 
-## 📊 Dataset Features & Preprocessing
+## Dataset Features & Preprocessing
 The dataset consists of **1,338 customer records** with 7 key variables:
 1. `age`: Primary beneficiary's age
 2. `sex`: Gender (`female`, `male`) -> Binary Encoded
@@ -30,14 +30,14 @@ The dataset consists of **1,338 customer records** with 7 key variables:
 
 ---
 
-## 📈 Key EDA Insights
+##  Key EDA Insights
 - **Smoking Impact:** Smoking is the single strongest factor driving up medical charges.
 - **Age Factor:** Medical charges steadily increase as age increases for both smokers and non-smokers.
 - **BMI & Smoking Combination:** High BMI (> 30) combined with smoking leads to the highest overall insurance costs.
 
 ---
 
-## ⚙️ Model Training & Performance
+##  Model Training & Performance
 
 The dataset was split using an **80/20 train-test split** (`random_state=42`).
 
@@ -48,7 +48,7 @@ The dataset was split using an **80/20 train-test split** (`random_state=42`).
 
 ---
 
-## 🚀 How to Run the Prediction Application
+##  How to Run the Prediction Application
 
 1. Open the Jupyter Notebook / Google Colab file in this repository.
 2. Run all cells sequentially.
@@ -56,6 +56,6 @@ The dataset was split using an **80/20 train-test split** (`random_state=42`).
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 - **Linearity Assumption:** Linear Regression assumes a straight-line relationship between features and target, which may underfit complex non-linear medical patterns.
 - **Geographic Scope:** Data represents a US-based cohort and may not accurately reflect global healthcare pricing structures.
